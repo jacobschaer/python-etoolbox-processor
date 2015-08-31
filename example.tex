@@ -1,0 +1,9 @@
+\newbool{a}
+\booltrue{a}
+\ifbool{a}{a}{b}
+\notbool{a}{a}{b}
+\boolfalse{a}
+\ifbool{a}{\{a\}}{\{b\}}
+\notbool{a}{{a}}{{b}}
+\notbool{a}{% I am just a comment
+}{}
